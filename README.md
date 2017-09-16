@@ -1,39 +1,16 @@
-A [Tabular Data Package](http://frictionlessdata.io/guides/tabular-data-package/) of Data Packages including the core datasets in the
-[Frictionless Data](http://frictionlessdata.io/) Project.
+Core data registry and tooling.
 
-Currently two registers maintained here:
+## Registry
 
-* catalog-list.csv - catalog of all the community data packages we can find (at
-  the moment largely those found on github via automatic search)
-* core-list.csv - ["Core" Datasets][core] (hand-maintained)
+Registry is maintained as [Tabular Data Package][tdp] with list of datasets in core-list.csv.
 
-[core]: http://data.okfn.org/roadmap/core-datasets
+[tdp]: http://frictionlessdata.io/guides/tabular-data-package/
 
-## Preparation
+To add a dataset add it to the `core-list.csv` - we recommend fork and pull.
 
-### Catalog List
+Discussion of proposals for new datasets and for incorporation of prepared datasets takes place in the [issues][].
 
-The main Catalog list is scraped using the python script `scripts/scrape.py`:
-
-    # install deps
-    pip install -r scripts/requirements.txt
-    # scrape data
-    python scripts/scrape.py
-
-Note we'd prefer not to scrape and use the API but we can't do the relevant
-query via the API - see
-<http://developer.github.com/changes/2013-10-18-new-code-search-requirements/>
-
-### Core List
-
-To add a dataset please add it to the `core-list.csv` - we recommend
-fork and pull.
-
-Discussion of proposals for new datasets and for incorporation of prepared
-datasets takes place in the [issues][].
-
-To **propose a new dataset for inclusion**, please create a [new
-issue](https://github.com/datasets/registry/issues/new).
+To **propose a new dataset for inclusion**, please create a [new issue](https://github.com/datasets/registry/issues/new).
 
 [issues]: https://github.com/datasets/registry/issues
 
