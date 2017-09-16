@@ -13,7 +13,7 @@
   }],
   "resources": [
     {
-      "path": "data/core-list.csv",
+      "path": "core-list.csv",
       "schema": {
         "fields": [
           {
