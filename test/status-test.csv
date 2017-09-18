@@ -1,0 +1,3 @@
+"name","github_url","run_date","validated_metadata","validated_data","published","ok_on_datahub","validated_metadata_message","validated_data_message"
+"finance-vix","https://github.com/datasets/finance-vix","2017-08-01T20:05:26.189Z","true","true","-","","",""
+"invalid-dp","https://github.com/datasets/invalid-dp","2017-08-01T20:05:26.189Z","false","N/A","-","","Descriptor validation error:\n          Invalid type: object (expected array)\n          at ""/resources"" in descriptor and\n          at ""/properties/resources/type"" in profile",""
