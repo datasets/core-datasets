@@ -14,7 +14,7 @@ To **propose a new dataset for inclusion**, please create a [new issue](https://
 
 [issues]: https://github.com/datasets/registry/issues
 
-## Tooling
+## Core Dataset Tools
 
 ### Installation
 
@@ -71,19 +71,3 @@ To run tests in watch mode:
 ```
 $ [sudo] npm run watch:test
 ```
-
-### Lint
-
-We use XO for checking our code for JS standard/convention/style:
-
-```bash
-# When you run tests, it first runs lint:
-$ npm test
-
-# To run lint separately:
-$ npm run lint # shows errors only
-
-# Fixing erros automatically:
-$ xo --fix
-```
-
