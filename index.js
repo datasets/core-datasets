@@ -158,7 +158,7 @@ class CoreTools {
           console.log(`Pushing ${statusObj.name}`)
           //  Instantiate Dataset class with valid packages
           const pkg = await data.Dataset.load(statusObj.local)
-          await datahub.push(pkg)
+          await datahub.push(pkg, {findability: 'published'})
           console.log(`🙌 pushed ${statusObj.name}`)
           statusObj.published = path.join('https://testing.datahub.io', 'core', statusObj.name)
         }
@@ -171,7 +171,7 @@ class CoreTools {
   }
 
   //  TODO: save pkg statuses to csv at path
-  save(path_ = 'status.csv') {
+  save(path_ = 'core-status.csv') {
     const fields = ['name', 'github_url', 'run_date', 'validated_metadata', 'validated_data', 'published', 'ok_on_datahub', 'validated_metadata_message', 'validated_data_message']
     const csv = json2csv({
       data: this.statuses,
@@ -186,7 +186,7 @@ class CoreTools {
 }
 
 (async () => {
-  const tools = await CoreTools.load('status.csv')
+  const tools = await CoreTools.load('core-status.csv')
   if (process.argv[2] === 'check') {
     await tools.check()
   } else if (process.argv[2] === 'clone') {
