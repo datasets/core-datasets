@@ -1,4 +1,5 @@
 require('events').EventEmitter.defaultMaxListeners = 15
+require('dotenv').config()
 
 const fs = require('fs')
 const path = require('path')
@@ -8,7 +9,6 @@ const lodash = require('lodash')
 const toArray = require('stream-to-array')
 const simpleGit = require('simple-git')
 const data = require('data.js')
-
 const {DataHub} = require('datahub-cli/lib/utils/datahub.js')
 const config = require('datahub-cli/lib/utils/config')
 
@@ -154,13 +154,13 @@ class CoreTools {
       statusObj.run_date = date.toISOString()
       //  Push to DataHub
       if (statusObj.validated_metadata === 'true' && statusObj.validated_data === 'true') {
-        if (statusObj.published === '-') {
+        if (statusObj.published === '-' && statusObj.auto_publish === 'false') {
           console.log(`Pushing ${statusObj.name}`)
           //  Instantiate Dataset class with valid packages
           const pkg = await data.Dataset.load(statusObj.local)
           await datahub.push(pkg, {findability: 'published'})
           console.log(`🙌 pushed ${statusObj.name}`)
-          statusObj.published = path.join('https://testing.datahub.io', 'core', statusObj.name)
+          statusObj.published = path.join(process.env.DOMAIN, 'core', statusObj.name)
         }
       } else {
         console.log(`${statusObj.name} is not pushed`)
@@ -171,8 +171,8 @@ class CoreTools {
   }
 
   //  TODO: save pkg statuses to csv at path
-  save(path_ = 'core-status.csv') {
-    const fields = ['name', 'github_url', 'run_date', 'validated_metadata', 'validated_data', 'published', 'ok_on_datahub', 'validated_metadata_message', 'validated_data_message']
+  save(path_ = process.argv[3]) {
+    const fields = ['name', 'github_url', 'run_date', 'validated_metadata', 'validated_data', 'published', 'ok_on_datahub', 'validated_metadata_message', 'validated_data_message', 'auto_publish']
     const csv = json2csv({
       data: this.statuses,
       fields
@@ -186,7 +186,7 @@ class CoreTools {
 }
 
 (async () => {
-  const tools = await CoreTools.load('core-status.csv')
+  const tools = await CoreTools.load(process.argv[3])
   if (process.argv[2] === 'check') {
     await tools.check()
   } else if (process.argv[2] === 'clone') {
