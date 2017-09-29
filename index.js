@@ -162,6 +162,12 @@ class CoreTools {
           console.log(`🙌 pushed ${statusObj.name}`)
           statusObj.published = path.join(process.env.DOMAIN, 'core', statusObj.name)
         }
+        else if (statusObj.auto_publish === 'true') {
+          console.log(`Pushing ${statusObj.name}`)
+          await datahub.pushFlow(path.join(__dirname, statusObj.local ,'.datahub/flow.yaml'))
+          console.log(`🙌 pushed ${statusObj.name}`)
+          statusObj.published = path.join(process.env.DOMAIN, 'core', statusObj.name)
+        }
       } else {
         console.log(`${statusObj.name} is not pushed`)
         statusObj.published = '-'
