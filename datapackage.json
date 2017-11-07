@@ -2,36 +2,81 @@
   "name": "registry",
   "title": "Registry of published datasets in the Datasets Project",
   "description": "Registry of published datasets in the Datasets Project",
-  "license": "ODC-PDDL-1.0",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "name": "public_domain_dedication_and_license",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
   "keywords": [ "datasets", "registry", "catalog" ],
   "version": "0.0.1",
-  "last_updated": "2015-09-19",
-  "image": "",
   "sources": [{
-    "name": "Datasets from OKFN",
-    "web": "https://github.com/datasets/registry"
+    "title": "Datasets from OKFN",
+    "path": "https://github.com/datasets/registry"
   }],
   "resources": [
     {
+      "name": "core-list",
       "path": "core-list.csv",
       "schema": {
         "fields": [
           {
-            "name": "url",
-            "type": "string"
-          },
-          {
-            "name": "owner",
-            "type": "string"
-          },
-          {
             "name": "name",
-            "type": "string"
+            "type": "string",
+            "description": "Name of the dataset"
           },
           {
-            "name": "url_optional",
+            "name": "github_url",
             "type": "string",
-            "description": "other url (when url field is not enough to find datapackage.json)"
+            "description": "The location in GitHub"
+          },
+          {
+            "name": "run_date",
+            "type": "string",
+            "description": "Last run date"
+          },
+          {
+            "name": "modified",
+            "type": "string",
+            "description": "Frequency information (year-A, quarter-Q, month-M, day-D, no-N)"
+          },
+          {
+            "name": "validated_metadata",
+            "type": "string",
+            "description": "Metadata validation status"
+            
+          },
+          {
+            "name": "validated_data",
+            "type": "string",
+            "description": "Data validation status"
+          },
+          {
+            "name": "published",
+            "type": "string",
+            "description": "Published location on DataHub"
+          },
+          {
+            "name": "ok_on_datahub",
+            "type": "string",
+            "description": "Status on DataHub"
+          },
+          {
+            "name": "validated_metadata_message",
+            "type": "string",
+            "description": "Error messages if validation fails"
+          },
+          {
+            "name": "validated_data_message",
+            "type": "string",
+            "description": "Error messages if validation fails"
+          },
+          {
+            "name": "auto_publish",
+            "type": "string",
+            "description": "Published by DataHub automatically"
           }
         ]
       }
