@@ -24,23 +24,22 @@ $ npm install
 
 ### Usage
 
+* Environmental variables
+
+`DOMAIN` - testing or production environment. For example: https://datahub.io
+`TYPE` - type of dataset. For example: examples or core
+
 ```
-node index.js [COMMAND]
+node index.js [COMMAND] [PATH]
+
+# PATH - path to csv file
 ```
-
-#### Normalize datasets
-
-To normalize all core datasets run the following command:
-
-`npm index.js norm`
-
-It will normalize all core datasets into following directory: `data/${pkg_name}`
 
 #### Clone datasets
 
 To clone all core datasets run the following command:
 
-`npm index.js clone`
+`npm index.js clone [PATH]`
 
 It will clone all core datasets into following directory: `data/${pkg_name}`
 
@@ -48,15 +47,23 @@ It will clone all core datasets into following directory: `data/${pkg_name}`
 
 To check all core datasets run the following command:
 
-`npm index.js check`
+`npm index.js check [PATH]`
 
 It will validate metadata and data according to the latest spec. 
+
+#### Normalize datasets
+
+To normalize all core datasets run the following command:
+
+`npm index.js norm [PATH]`
+
+It will normalize all core datasets into following directory: `data/${pkg_name}`
 
 #### Push datasets
 
 To publish all core data packages run the following command:
 
-`npm index.js push`
+`npm index.js push [PATH]`
 
 ### Running tests
 
