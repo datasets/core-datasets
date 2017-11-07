@@ -160,13 +160,13 @@ class CoreTools {
           const pkg = await data.Dataset.load(statusObj.local)
           await datahub.push(pkg, {findability: 'published'})
           console.log(`🙌 pushed ${statusObj.name}`)
-          statusObj.published = path.join(process.env.DOMAIN, 'core', statusObj.name)
+          statusObj.published = path.join(process.env.DOMAIN, process.env.TYPE, statusObj.name)
         }
         else if (statusObj.auto_publish === 'true') {
           console.log(`Pushing ${statusObj.name}`)
           await datahub.pushFlow(path.join(__dirname, statusObj.local ,'.datahub/flow.yaml'))
           console.log(`🙌 pushed ${statusObj.name}`)
-          statusObj.published = path.join(process.env.DOMAIN, 'core', statusObj.name)
+          statusObj.published = path.join(process.env.DOMAIN, process.env.TYPE, statusObj.name)
         }
       } else {
         console.log(`${statusObj.name} is not pushed`)
@@ -178,7 +178,7 @@ class CoreTools {
 
   //  TODO: save pkg statuses to csv at path
   save(path_ = process.argv[3]) {
-    const fields = ['name', 'github_url', 'run_date', 'validated_metadata', 'validated_data', 'published', 'ok_on_datahub', 'validated_metadata_message', 'validated_data_message', 'auto_publish']
+    const fields = ['name', 'github_url', 'run_date', 'modified', 'validated_metadata', 'validated_data', 'published', 'ok_on_datahub', 'validated_metadata_message', 'validated_data_message', 'auto_publish']
     const csv = json2csv({
       data: this.statuses,
       fields
