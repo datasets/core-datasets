@@ -43,7 +43,8 @@
     "lodash": "^4.17.4",
     "simple-git": "^1.72.0",
     "sinon": "^2.4.1",
-    "stream-to-array": "^2.3.0"
+    "stream-to-array": "^2.3.0",
+    "tableschema": "^1.4.1"
   },
   "devDependencies": {
     "xo": "^0.18.2"
