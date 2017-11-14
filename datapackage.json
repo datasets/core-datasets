@@ -1,21 +1,16 @@
 {
   "name": "registry",
-  "title": "Registry of published datasets in the Datasets Project",
-  "description": "Registry of published datasets in the Datasets Project",
+  "title": "Registry of Core Datasets",
+  "description": "Registry of published datasets in the Core Datasets Project",
   "licenses": [
     {
       "id": "odc-pddl",
       "path": "http://opendatacommons.org/licenses/pddl/",
-      "name": "public_domain_dedication_and_license",
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
   "keywords": [ "datasets", "registry", "catalog" ],
-  "version": "0.0.1",
-  "sources": [{
-    "title": "Datasets from OKFN",
-    "path": "https://github.com/datasets/registry"
-  }],
+  "version": "1.0",
   "resources": [
     {
       "name": "core-list",
