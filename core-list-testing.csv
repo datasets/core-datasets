@@ -1,5 +1,5 @@
 "name","github_url","run_date","modified","validated_metadata","validated_data","published","ok_on_datahub","validated_metadata_message","validated_data_message","auto_publish"
-"airport-codes","https://github.com/datasets/airport-codes","2017-09-29T08:00:01.586Z","D","true","true","https://testing.datahub.io/core/airport-codes","","valid","valid","false"
+"airport-codes","https://github.com/datasets/airport-codes","2017-09-29T08:00:01.586Z","D","true","true","https://testing.datahub.io/core/airport-codes","ok","valid","valid","true"
 "bond-yields-uk-10y","https://github.com/datasets/bond-yields-uk-10y","2017-09-29T08:00:01.586Z","Q","true","true","https://testing.datahub.io/core/bond-yields-uk-10y","ok","valid","valid","true"
 "bond-yields-us-10y","https://github.com/datasets/bond-yields-us-10y","2017-09-29T08:00:01.586Z","M","true","true","https:/testing.datahub.io/core/bond-yields-us-10y","ok","valid","valid","true"
 "cash-surplus-deficit","https://github.com/datasets/cash-surplus-deficit","2017-09-29T08:00:01.586Z","A","true","true","https://testing.datahub.io/core/cash-surplus-deficit","ok","valid","valid","false"
