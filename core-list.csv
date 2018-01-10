@@ -33,6 +33,7 @@
 "global-temp","https://github.com/datasets/global-temp","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/global-temp","ok","valid","valid","false"
 "global-temp-anomalies","https://github.com/datasets/global-temp-anomalies","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/global-temp-anomalies","ok","valid","valid","false"
 "gold-prices","https://github.com/datasets/gold-prices","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/gold-prices","ok","valid","valid","false"
+"house-prices-global","https://github.com/datasets/house-prices-global","2018-01-10T08:00:01.586Z","A","true","true","https://datahub.io/core/house-prices-global","ok","valid","valid","false"
 "house-prices-uk","https://github.com/datasets/house-prices-uk","2017-09-29T08:00:01.586Z","Q","true","true","https://datahub.io/core/house-prices-uk","ok","valid","valid","false"
 "house-prices-us","https://github.com/datasets/house-prices-us","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/house-prices-us","ok","valid","valid","false"
 "ICC-Incoterms","https://github.com/datasets/ICC-Incoterms","2017-09-29T08:00:01.586Z","N","true","true","https:///datahub.io/core/icc-incoterms","ok","valid","valid","false"
