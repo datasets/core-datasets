@@ -19,6 +19,7 @@
 "employment-us","https://github.com/datasets/employment-us","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/us-employment-bls","ok","valid","valid","false"
 "expenditure-on-research-and-development","https://github.com/datasets/expenditure-on-research-and-development","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/expenditure-on-research-and-development","ok","valid","valid","false"
 "finance-vix","https://github.com/datasets/finance-vix","2017-09-29T08:00:01.586Z","D","true","true","https://datahub.io/core/finance-vix","ok","valid","valid","true"
+"fips-10-4","https://github.com/datasets/fips-10-4","2018-01-19T08:00:01.586Z","N","true","true","https://datahub.io/core/fips-10-4","ok","valid","valid","false"
 "gdp","https://github.com/datasets/gdp","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/gdp","ok","valid","valid","false"
 "gdp-uk","https://github.com/datasets/gdp-uk","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/gdp-uk","ok","valid","valid","false"
 "gdp-us","https://github.com/datasets/gdp-us","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/gdp-us","ok","valid","valid","false"
