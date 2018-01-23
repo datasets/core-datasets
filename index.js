@@ -9,12 +9,12 @@ const lodash = require('lodash')
 const toArray = require('stream-to-array')
 const simpleGit = require('simple-git')
 const data = require('data.js')
-const {DataHub} = require('datahub-cli/lib/utils/datahub.js')
-const config = require('datahub-cli/lib/utils/config')
+const {DataHub} = require('datahub-client')
+const {config} = require('datahub-client')
 
-const {validateData, validateMetadata} = require('datahub-cli/lib/validate.js')
+const {validateData, validateMetadata} = require('datahub-client').validate
 const {error} = require('datahub-cli/lib/utils/error')
-const {normalize} = require('datahub-cli/lib/normalize.js')
+const {normalize} = require('datapackage-normalize')
 
 class CoreTools {
   constructor(rows, pathToPackagesDirectory) {
@@ -154,7 +154,7 @@ class CoreTools {
       statusObj.run_date = date.toISOString()
       //  Push to DataHub
       if (statusObj.validated_metadata === 'true' && statusObj.validated_data === 'true') {
-        if (statusObj.published === '-' && statusObj.auto_publish === 'false') {
+        if (statusObj.auto_publish === 'false') {
           console.log(`Pushing ${statusObj.name}`)
           //  Instantiate Dataset class with valid packages
           const pkg = await data.Dataset.load(statusObj.local)

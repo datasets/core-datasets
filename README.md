@@ -39,7 +39,7 @@ node index.js [COMMAND] [PATH]
 
 To clone all core datasets run the following command:
 
-`npm index.js clone [PATH]`
+`node index.js clone [PATH]`
 
 It will clone all core datasets into following directory: `data/${pkg_name}`
 
@@ -47,7 +47,7 @@ It will clone all core datasets into following directory: `data/${pkg_name}`
 
 To check all core datasets run the following command:
 
-`npm index.js check [PATH]`
+`node index.js check [PATH]`
 
 It will validate metadata and data according to the latest spec. 
 
@@ -55,7 +55,7 @@ It will validate metadata and data according to the latest spec.
 
 To normalize all core datasets run the following command:
 
-`npm index.js norm [PATH]`
+`node index.js norm [PATH]`
 
 It will normalize all core datasets into following directory: `data/${pkg_name}`
 
@@ -63,7 +63,7 @@ It will normalize all core datasets into following directory: `data/${pkg_name}`
 
 To publish all core data packages run the following command:
 
-`npm index.js push [PATH]`
+`node index.js push [PATH]`
 
 ### Running tests
 
