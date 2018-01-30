@@ -3,6 +3,7 @@
 "bond-yields-uk-10y","https://github.com/datasets/bond-yields-uk-10y","2017-09-29T08:00:01.586Z","Q","true","true","https://datahub.io/core/bond-yields-uk-10y","ok","valid","valid","true"
 "bond-yields-us-10y","https://github.com/datasets/bond-yields-us-10y","2017-09-29T08:00:01.586Z","M","true","true","https:/datahub.io/core/bond-yields-us-10y","ok","valid","valid","true"
 "cash-surplus-deficit","https://github.com/datasets/cash-surplus-deficit","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/cash-surplus-deficit","ok","valid","valid","false"
+"co2-fossil-by-nation","https://github.com/datasets/co2-emissions","2018-01-29T08:00:01.586Z","A","true","true","http://datahub.io/core/co2-fossil-by-nation","ok","valid","valid","false"
 "co2-fossil-global","https://github.com/datasets/co2-fossil-global","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/co2-fossil-global","ok","valid","valid","false"
 "co2-ppm","https://github.com/datasets/co2-ppm","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/co2-ppm","ok","valid","valid","false"
 "cofog","https://github.com/datasets/cofog","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/cofog","ok","valid","valid","false"
