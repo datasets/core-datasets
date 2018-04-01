@@ -61,6 +61,7 @@
 "ppp","https://github.com/datasets/ppp","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/ppp","ok","valid","valid","false"
 "s-and-p-500","https://github.com/datasets/s-and-p-500","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/s-and-p-500","ok","valid","valid","false"
 "s-and-p-500-companies","https://github.com/datasets/s-and-p-500-companies","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/s-and-p-500-companies","ok","valid","valid","false"
+"s-and-p-500-companies-financials","https://github.com/datasets/s-and-p-companies-financials","2018-03-29T08:00:01.586Z","N","true","true","https://datahub.io/core/s-and-p-500-companies-financials","ok","valid","valid","false"
 "sea-level-rise","https://github.com/datasets/sea-level-rise","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/sea-level-rise","ok","valid","valid","false"
 "smdg-master-terminal-facilities-list","https://github.com/datasets/smdg-master-terminal-facilities-list","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/smdg-master-terminal-facilities-list","","valid","valid","false"
 "top-level-domain-names","https://github.com/datasets/top-level-domain-names","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/top-level-domain-names","ok","valid","valid","false"
