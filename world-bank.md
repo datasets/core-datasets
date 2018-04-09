@@ -4,9 +4,13 @@ description: An overview of the World Bank data holdings
 ---
 
 The World Bank has a wide array of high quality data and much of it is [open data][]. It covers several distinct collections and databases.
+
 * [Open Data Catalog][] - a listing of available World Bank datasets. You can browse from https://data.worldbank.org/
+
 * [World Development Indicators][] - It includes over 15 major databases with more than 2000 indicators.
+
 * [DataBank][] - collections of time series data on a variety of topics. Total: 69 databases.
+
 * [Open finances][] - World Bank Group’s financials datasets such as
   * [Loans and credits][] - 5 datasets
   * [Financial Reporting][] - 23 datasets
@@ -14,8 +18,11 @@ The World Bank has a wide array of high quality data and much of it is [open dat
   * [Procurement][] - 4 datasets
   * [Projects][] - 9 datasets
   * [Budget][] - 3 datasets
+
 * [Projects & operations][] - information on all of the World Bank's lending projects since 1947. Around 13,119 projects in 173 countries.
+
 * [Global Consumption Database][] - datasets on household consumption patterns in developing countries. Data can be derived by country, sector or product.
+
 * [Microdata Library][] - collection of sample surveys of households, business establishments or other facilities. As of April 02, 2018 the Library contains 2,503 surveys and 2,577 citations.
 
 [Open Data Catalog]: http://datacatalog.worldbank.org/
@@ -37,30 +44,50 @@ The World Bank has a wide array of high quality data and much of it is [open dat
 
 ## Data
 
-All datasets can be found under `world-bank` user https://datahub.io/world-bank.
+We have created [world-bank](https://datahub.io/world-bank) user specifically for World Bank datasets, so they will be found in one place.
 
 ### World Development Indicators
 
 One of the major open ones are the [World Development Indicators][] which provide a variety of important indicators ranging from GDP and population to CO2 emissions and literacy in a standardized cross country form. It consists of several main categories:
+
 -   Agriculture & Rural Development
+
 -   Aid Effectiveness
+
 -   Climate Change
+
 -   Economy & Growth
+
 -   Education
+
 -   Energy & Mining
+
 -   Environment
+
 -   External Debt
+
 -   Financial Sector
+
 -   Gender
+
 -   Health
+
 -   Infrastructure
+
 -   Poverty
+
 -   Private Sector
+
 -   Public Sector
+
 -   Science & Technology
+
 -   Social Development
+
 -   Social Protection & Labor
+
 -   Trade
+
 -   Urban Development
 
 ## API
