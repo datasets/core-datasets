@@ -13,6 +13,7 @@
 "country-list","https://github.com/datasets/country-list","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/country-list","ok","valid","valid","false"
 "cpi","https://github.com/datasets/cpi","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/cpi","ok","valid","valid","false"
 "cpi-us","https://github.com/datasets/cpi-us","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/cpi-us","ok","valid","valid","false"
+"cirp-survey-of-freshmen","https://github.com/datasets/cirp-survey-of-freshmen","2018-04-18T08:00:01.586Z","N","true","true","https://datahub.io/core/cirp-survey-of-freshmen","ok","valid","valid","false"
 "currency-codes","https://github.com/datasets/currency-codes","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/currency-codes","ok","valid","valid","false"
 "dac-crs-codes","https://github.com/datasets/dac-crs-codes","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/dac-and-crs-code-lists","ok","valid","valid","false"
 "eu-emissions-trading-system","https://github.com/datasets/eu-emissions-trading-system","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/eu-emissions-trading-system","ok","valid","valid","false"
