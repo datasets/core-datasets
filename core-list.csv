@@ -58,6 +58,7 @@
 "pharmaceutical-drug-spending","https://github.com/datasets/pharmaceutical-drug-spending","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/pharmaceutical-drug-spending","ok","valid","valid","false"
 "population","https://github.com/datasets/population","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/population","ok","valid","valid","false"
 "population-global-historical","https://github.com/datasets/population-global-historical","2017-10-27T08:00:01.586Z","N","true","true","https://datahub.io/core/population-global-historical","ok","valid","valid","false"
+"population-growth-estimates-and-projections","https://github.com/datasets/population-growth-estimates-and-projections","2018-01-18T06:06:48.996Z","A","true","true","https://datahub.io/core/population-growth-estimates-and-projections","ok","valid","valid","true"
 "population-city","https://github.com/datasets/population-city","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/population-city","ok","valid","valid","false"
 "ppp","https://github.com/datasets/ppp","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/ppp","ok","valid","valid","false"
 "s-and-p-500","https://github.com/datasets/s-and-p-500","2017-09-29T08:00:01.586Z","M","true","true","https://datahub.io/core/s-and-p-500","ok","valid","valid","false"
