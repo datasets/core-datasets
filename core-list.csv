@@ -48,7 +48,7 @@
 "interest-rates-gb","https://github.com/datasets/interest-rates-gb","2017-10-27T08:00:01.586Z","M","true","true","http://datahub.io/core/interest-rates-gb","ok","valid","valid","false"
 "investor-flow-of-funds-us","https://github.com/datasets/investor-flow-of-funds-us","2017-09-29T08:00:01.586Z","W","true","true","https://datahub.io/core/investor-flow-of-funds-us","ok","valid","valid","false"
 "iso-container-codes","https://github.com/datasets/iso-container-codes","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/iso-container-codes","ok","valid","valid","false"
-"language-codes","https://github.com/datasets/language-codes","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/language-codes","ok","valid","valid","false"
+"language-codes","https://github.com/datasets/language-codes","2017-09-29T08:00:01.586Z","A","true","true","https://datahub.io/core/language-codes","ok","valid","valid","true"
 "media-types","https://github.com/datasets/media-types","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/media-types","ok","valid","valid","false"
 "membership-to-copyright-treaties","https://github.com/datasets/membership-to-copyright-treaties","2017-09-29T08:00:01.586Z","N","true","true","https://datahub.io/core/membership-to-copyright-treaties","ok","valid","valid","false"
 "nasdaq-listings","https://github.com/datasets/nasdaq-listings","2017-09-29T08:00:01.586Z","D","true","true","https://datahub.io/core/nasdaq-listings","ok","valid","valid","false"
